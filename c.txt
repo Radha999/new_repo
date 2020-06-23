@@ -1,0 +1,9 @@
+	Version Control Software VCS is also referred as SCM (Source Code Management) tools or RCS (Revision Control System).
+
+	Version control is a way to keep a track of the changes in the code so that if something goes wrong, we can make comparisons in different code versions and revert to any previous version that we want. It is very much required where multiple developers are continuously working on /changing the source code.
+
+	Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+	Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+
+
