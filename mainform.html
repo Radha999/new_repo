@@ -14,19 +14,19 @@ a:hover, a:active {
   background-color: red;
 }
 </style>
-	
-   <body>
+<body onload='document.form1.text1.focus()'>
+
       <form >
 	<h1> Please fill this form </h1>        
-	 First name: <input type = "text" name = "first_name" />
+	 First name: <input type = "text" name = "fname" />
          <br> <br> <br>
          Last name: <input type = "text" name = "last_name" />
 	<br> <br> <br>
          Phone number: <input type="tel" id="phone" name="phone" required/>
           <br> <br> <br>
 	Choice of course
-  	<input type = "radio" name = "Course" value = "bachelors"> Bachelors
-         <input type = "radio" name = "Course" value = "masters"> Masters
+  	<input type = "radio" name = "bachelors" value = "bachelors"> Bachelors
+         <input type = "radio" name = "masters" value = "masters"> Masters
 	<br><br><br>
 	Select your favourite courses
 	<input type = "checkbox" name = "Java" value = "on"> Java
@@ -34,9 +34,10 @@ a:hover, a:active {
 	<input type = "checkbox" name = "PHP" value = "on"> PHP
          <input type = "checkbox" name = "Python" value = "on">Python
 	<input type = "checkbox" name = "JavaScript" value = "on">JavaScript
-         <input type = "checkbox" name = "Linux" value = "on">Linux
+         <input type = "checkbox" name = "Linux" value = "on" >Linux
 	<br><br><br>
-	<a href="/home/radhu/Desktop/new_repo/homepage.html">Submit</a>
+  <form name="form1"   onclick="phonenumber(document.form1.text1)"/ >
+  <input type="submit" value="Submit">
 	
       </form>
    </body>
